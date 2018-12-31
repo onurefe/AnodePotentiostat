@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LP5907-Q1
+D Automotive 250-mA, Ultra-Low-Noise, Low-IQ LDO
+K LDO
+$ENDCMP
+#
+#End Doc Library

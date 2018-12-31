@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6268
+D 500MHz Ultra-Low Bias Current FET Input Op Amp
+K OPAMP
+$ENDCMP
+#
+#End Doc Library

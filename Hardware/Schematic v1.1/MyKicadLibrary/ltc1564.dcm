@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC1564
+D 10kHz to 150kHz Digitally Controlled Antialising Filter and 4-Bit PGA
+$ENDCMP
+#
+#End Doc Library

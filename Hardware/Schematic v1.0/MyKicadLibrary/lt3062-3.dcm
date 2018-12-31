@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT3062-3.3
+D 45V Vin, Micropower, Low Noise, 200mA LDO with Reverse Current Protection
+$ENDCMP
+#
+#End Doc Library

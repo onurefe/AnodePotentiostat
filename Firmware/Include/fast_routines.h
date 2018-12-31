@@ -1,0 +1,1 @@
+inline float fastsin(float theta);

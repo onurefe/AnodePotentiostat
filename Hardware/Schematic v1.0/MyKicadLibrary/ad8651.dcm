@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8651
+D 50MHz, Precision, Low Distortion, Low Noise CMOS Amplifier
+$ENDCMP
+#
+#End Doc Library

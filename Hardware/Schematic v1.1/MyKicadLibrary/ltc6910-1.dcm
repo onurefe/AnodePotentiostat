@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6910-1
+D Digitally Controlled Programming Gain Amplifier of Gains 1, 2, 5, 10,  20, 50, 100
+$ENDCMP
+#
+#End Doc Library

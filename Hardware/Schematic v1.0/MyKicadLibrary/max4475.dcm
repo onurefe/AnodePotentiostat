@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX4475
+D SOT-23, Low Noise, Low Distortion, Wideband, Rail-to-Rail Op Amp
+$ENDCMP
+#
+#End Doc Library

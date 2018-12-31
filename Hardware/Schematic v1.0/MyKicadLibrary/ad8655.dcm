@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8655
+D 28MHz, Precision, Low Noise CMOS Amplifier
+$ENDCMP
+#
+#End Doc Library

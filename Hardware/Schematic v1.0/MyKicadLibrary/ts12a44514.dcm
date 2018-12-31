@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS12A44514
+D 20ohm max on state resistance, high bandwidth quad analog switches
+$ENDCMP
+#
+#End Doc Library
