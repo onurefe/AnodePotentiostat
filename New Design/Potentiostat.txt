@@ -1,0 +1,17 @@
+Adımlar neler?
+-DDS mi kullanılacak karar ver. 
+-ADC ne olacak? Tek kanal için bir kart şeklinde mi?
+-2,3,4 elektrot ölçümlerine bak.
+-2x1 ADC mi gerekli?
+-Birbiriyle haberleşebilen sistem. Nasıl?
+-Yüksek sampling rate nasıl aktarılacak? Emulate edilebilir mi? Edilebilse de ne kadar sağlıklı? 8bit ya da 16bit olması nasıl bir avantaj sağlar; sağlar mı?
+
+*Daha öncesinde bant genişliğine karar vermek gerekiyor. 1MHz'e kadar EIS yeteneği olması isteniyor mu? İsteniyorsa(ki rekabet edebilen bir ürün yapabilmek açısından iyi olur) gerekli DDS. Ve belki işlemci de yeterli olamayacak. 1MHz'de EIS yapabilmek 4MHz sampling yapmak anlamına geliyor. Kullanılan işlemci yetersiz olabilir. Belki de DDS yerine işlemciden o sinyalleri üretmek daha anlamlı. Çünkü zaten yüksek frekans olayına girilmiş olunuyor. 
+
+DDS analog filtre katından kurtulma gibi gerçekten önemli bir avantaj sağlıyor. Ayrıca configure etme olayından da. Kendi içinde scale edebilecek bir katman var.
+
+O halde DDS kullanılacak. Bu bir çok gereksiz şeyi devreden çıkarıyor. Scaling özelliğine bakmak gerekli.
+
+ADC paralel olacaksa o kadar veriyi işleyebileceğimizi bilmemiz gerekiyor. Belki M7 serisinden bir işlemci kullanmak daha anlamlı olabilir o durumda. Ya da fazörleri işlemeden toplayıp en son işlemek? Neticede hepsinin katsayısı aynı oluyor; değil mi? Evet. Böylelikle işlemek oldukça kolay hale getirilebilir. Önemli olan veriyi aktarabilmek olur böyle bir durumda. Ama yine de riskli.
+
+ADC differential mı yoksa iki kanallı mı olmalı? Hangi dizayn daha iyi olur? Normal bir potantiostat'ta gerilimi nasıl uyguluyorlar? Differential olması lazım.
